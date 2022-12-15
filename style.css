@@ -1,0 +1,251 @@
+html,
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gilroy';
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    background-image: url(./images/mountain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1700px;
+    padding: 64px 80px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 198px;
+}
+
+.logo{
+    width: 108px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 40px;
+}
+
+.account-btn{
+    border-style: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+
+.sub-title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #fbd784;
+    display: flex;
+    align-items: center;
+}
+
+.sub-title::before {
+    content:"";
+    display: inline-block;
+    width: 72px;
+    height: 2px;
+    margin-right: 32px;
+    background-color: #fbd784;
+}
+
+.title{
+    font-family: Chronicle Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 100px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.social-btns{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-btns span{
+    writing-mode: vertical-lr;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color:#ffffff;
+    margin-bottom: 26px;
+}
+
+.social-btns img{
+    width: 20px;
+    margin-bottom: 26;
+}
+
+.slider{
+    width: 140px;
+}
+
+.sub-text{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sub-text img{
+    width: 16px;
+    margin-left: 30px;
+}
+
+.container{
+    width: 1462px;
+    margin: 0 auto; /* 1 - top, bottom; 2 - r, l*/
+}
+
+main{
+    background: #0b1d2b;
+    color: #ffffff;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+section img {
+    width: 566px;
+    margin-left: 114px;
+}
+
+section div {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 141px;
+    padding-left: 150px;
+}
+
+.read-more{
+    width: 140px;
+    font-size: 18px;
+    line-height: 22px;
+    color:#fbd784;
+    /* background-image: url(./images/arrow_downward_24px.png); 
+    background-repeat: no-repeat;
+    background-position-x: 100%; */
+    display: flex;
+    align-items: center;
+} 
+
+.read-more::after{
+    content: url(./images/arrow_downward_24px.png);
+    margin-left: 16px;
+    width: 16px;
+    height: 20px;
+} 
+
+.block-1{
+    background-image: url(./images/11.png);
+    background-repeat: no-repeat;
+    background-position-y: -60px;
+    background-position-x: -150px;
+    background-origin: content-box;
+    margin-top: 38px;
+}
+
+.block-2{
+    background-image: url(./images/22.png);
+    background-repeat: no-repeat;
+    background-position-y: -60px;
+    background-position-x: -150px;
+    background-origin: content-box;
+    margin-top: 38px;
+}
+
+.block-3{
+    background-image: url(./images/33.png);
+    background-repeat: no-repeat;
+    background-position-y: -40px;
+    background-position-x: -150px;
+    background-origin: content-box;
+    margin-top: 38px;
+}
+
+footer{
+    background-color: #0b1d2b;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.logo{
+    width: 108px;
+}
+
+.heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top:24px;
+}
+
+.heading-one{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 122px;
+    opacity: 0.5;
+}
+
+.heading-two{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FBD784;
+}
+
+
+ul{
+    padding: 0;
+}
+
+ul li{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
